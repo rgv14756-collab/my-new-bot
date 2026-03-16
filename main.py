@@ -6,6 +6,7 @@ ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID", "8668351155")
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
+app = Flask('')
 
 @bot.message_handler(commands=['start'])
 def start(message):

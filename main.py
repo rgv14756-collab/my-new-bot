@@ -26,7 +26,7 @@ def adduser(message):
     bot.send_message(
         message.chat.id,
         "Мы рады новым подписчикам ☺️вот ссылка, админ добавит как можно быстрее.\n"
-        "https://t.me/+b_L-rNi1hAllMWRi"
+        "https://t.me/+QfaNhZzp4ZFjYTY6"
     )
     bot.register_next_step_handler(message, handle_adduser)
 

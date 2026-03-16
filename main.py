@@ -25,8 +25,8 @@ def start(message):
 def adduser(message):
     bot.send_message(
         message.chat.id,
-        "Мы рады новым подписчикам ☺️Пришли никнейм своего друга/подруги.\n"
-        "‼️убедитесь что человека можно добавлять в канал не по ссылке‼️"
+        "Мы рады новым подписчикам ☺️вот ссылка, админ добавит как можно быстрее.\n"
+        "https://t.me/+b_L-rNi1hAllMWRi"
     )
     bot.register_next_step_handler(message, handle_adduser)
 

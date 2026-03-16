@@ -104,7 +104,7 @@ bot.set_my_commands([
     telebot.types.BotCommand("/deletepost", "Удалить пост"),
 ])
 
-if name == '__main__':
+if __name__ == '__main__':
     keep_alive()  # Запуск веб-сервера для Render
     print("Бот запущен...")
     bot.infinity_polling(none_stop=True)

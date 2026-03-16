@@ -1,7 +1,5 @@
 import telebot
 import os
-from flask import Flack
-from threading import Theard
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8792226891:AAHq5cTfbdGVf7QPlugEAnN1WhES3t_jDa8")
 ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID", "8668351155")

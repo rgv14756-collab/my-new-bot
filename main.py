@@ -21,7 +21,7 @@ def keep_alive():
 # --------------------------------------
 
 # ТВОИ ДАННЫЕ
-BOT_TOKEN = "8792226891:AAHq5cTfbdGVf7QPlugEAnN1WhES3t_jDa8"
+BOT_TOKEN = "8792226891:AAEFBsz7W5EhI9xdr9oX6VgbasdSiBgYS4A"
 ADMIN_CHAT_ID = "8668351155"
 
 bot = telebot.TeleBot(BOT_TOKEN)
